@@ -1,38 +1,52 @@
-# AI Event Reel Generator
+# AI Event Intelligence & Reel Generator
 
-An AI-powered application that generates highlight reels from event videos with an Apple-inspired UI design.
+An AI-powered application that automatically generates highlight reels from event footage with intelligent guest mapping and face detection.
 
 ## Features
 
-- 🎥 Automated video highlight generation
+- 🎥 AI-powered video highlight detection
+- 👤 Face detection and tracking
+- 🎵 Audio analysis for key moments
+- 🗺️ Interactive seating map visualization
 - 🌓 Dark/Light mode support
 - 🎨 Apple-inspired UI design
-- 🗺️ Interactive seating map visualization
-- ✨ Real-time progress tracking
-- 🔄 Efficient file handling
 
-## Local Development
+## Tech Stack
 
-1. Clone the repository
-2. Create a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scriptsctivate
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the application:
-   ```bash
-   streamlit run app.py
-   ```
+- Python (Streamlit, OpenCV, YOLOv8)
+- React.js with TypeScript
+- TailwindCSS
+- Machine Learning (PyTorch)
 
-## Deployment
+## Installation
 
-This app is deployed on Streamlit Cloud. Visit [here](your-app-url) to use the application.
+1. Clone the repository:
+```bash
+git clone https://github.com/suryate9ja/AI_Event.git
+cd AI_Event
+```
+
+2. Install Python dependencies:
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+3. Run the application:
+```bash
+streamlit run app.py
+```
+
+## Project Structure
+
+- `app.py`: Main Streamlit application
+- `video_processing/`: Video analysis and reel generation
+- `nlp_guest_mapping/`: Guest clustering and mapping
+- `src/`: React frontend components
+- `models/`: ML model files
+- `utils/`: Helper functions
 
 ## License
 
 MIT License
-# AI_Event

@@ -1,13 +1,28 @@
+# Python
 __pycache__/
 *.py[cod]
 *.class
 .env
-.venv
-env/
+.venv/
 venv/
 ENV/
-*.mp4
-temp/
-output/
-.DS_Store
+
+# Node
 node_modules/
+build/
+.next/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+
+# Project specific
+*.mp4
+*.pt
+output/
+temp/
