@@ -1,4 +1,3 @@
-
 __pycache__/
 *.py[cod]
 *.class
@@ -11,3 +10,4 @@ ENV/
 temp/
 output/
 .DS_Store
+node_modules/
