@@ -35,3 +35,4 @@ This app is deployed on Streamlit Cloud. Visit [here](your-app-url) to use the a
 ## License
 
 MIT License
+# AI_Event
