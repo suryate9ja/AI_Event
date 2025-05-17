@@ -13,8 +13,7 @@ if 'dark_mode' not in st.session_state:
     st.session_state.dark_mode = False
 
 # Page configuration
-st.set_page_config(# Run the app
-streamlit run app.py
+st.set_page_config(
     page_title="AI Event Reel Generator",
     layout="wide",
     initial_sidebar_state="collapsed"
